@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-	<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">AQRUN</a>
+	<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="<%=basePath%>index.jsp">AQRUN</a>
 	<div class="" style="display:flex;flex:1;color:white;font-size:1.25rem;">
 		<i class="icon-reorder" style="cursor:pointer"></i>
 	</div>

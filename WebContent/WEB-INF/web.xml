@@ -9,4 +9,9 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+  	<servlet-name>FoodServlet</servlet-name>
+  	<servlet-class>com.aqrun.servlets.FoodsServlet</servlet-class>
+  	<load-on-startup>2</load-on-startup>
+  </servlet>
 </web-app>

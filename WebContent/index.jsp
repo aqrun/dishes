@@ -1,23 +1,5 @@
-<%@ page language="java" contentType="text/html; charset="
-    pageEncoding="UTF-8"%>
-<% String basePath = request.getContextPath()+"/"; %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
-	"http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Dishes</title>
-	
-	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link href="<%=basePath %>plugins/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
-	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-</head>
-<body>
-	
-	<%@ include file="_header_top.jsp" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="_header.jsp" %>
 
     <div class="container-fluid">
       <div class="row">
@@ -39,6 +21,9 @@
           </div>
 
           <h2>Section title</h2>
+          
+          <%@ include file="_alert.jsp" %>
+          
           <div class="table-responsive">
             <table class="table table-striped table-sm">
               <thead>
@@ -166,11 +151,14 @@
               </tbody>
             </table>
           </div>
+          
+          
+          <div style="height:200px;"></div>
+          
+          
+          
         </main>
       </div>
     </div>
 
-
-
-</body>
-</html>
+<%@ include file="_footer.jsp" %>
